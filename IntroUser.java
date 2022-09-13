@@ -29,7 +29,8 @@ public class IntroUser implements Introduction{
 		System.out.println("Hint: use lowercase letter while entering guesses.");
 		
 	}
-
+    
+    //get the word that the user has to guess with its letters replaced as asteriks
 	@Override
 	public String getAsterikWord(String name) {
 		for(int i=0; i<name.length();i++) {
